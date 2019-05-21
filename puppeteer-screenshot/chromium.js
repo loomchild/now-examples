@@ -15,4 +15,10 @@ async function getScreenshot(url, type, quality, fullPage) {
     return file;
 }
 
+const init = async () => {
+  console.log('INIT');
+  await getScreenshot('http://google.com', 'png', 80, false);
+}
+init();
+
 module.exports = { getScreenshot };

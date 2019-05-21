@@ -1,11 +1,14 @@
 {
+  "scripts": {
+    "now-build": "node chromium.js"
+  },
   "name": "puppeteer-screenshot",
   "version": "1.0.0",
   "description": "Take screenshot of a website",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "chrome-aws-lambda": "1.11.1",
-    "puppeteer-core": "1.11.0"
+    "chrome-aws-lambda": "1.16.1",
+    "puppeteer-core": "1.16.0"
   }
 }
